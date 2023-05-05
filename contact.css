@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    background: blue;
+    color: white;
+    display: flex;
+    padding: 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.nav-bar-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.nav-bar-2{
+    display: flex;
+}
+.nav-bar-2 li{
+    list-style-type: none;
+    padding: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar-3{
+    display: flex;
+    padding: 20px;
+}
+.nav-bar-3 button{
+    margin-left: 20px;
+    font-size: 20px;
+    color: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+.nav-bar-3 p{
+    font-size: 30px;
+}
+.our{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/hosp\ back.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+}
+.our-1{
+    padding: 30px;
+    font-size: 100px;
+    font-weight: 600;
+    color: #fff;
+}
+.our-2{
+    font-size: 50px;
+    font-weight: 400;
+    padding: 30px;
+    color: #fff;
+}
+.small{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+.get{
+    font-size: 30px;
+    font-weight: 500;
+    color: blue;
+}
+.call{
+    font-size: 60px;
+    font-weight: 800;
+    color: darkblue;
+}
+.icon-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 30px;
+    height: 300px;
+    text-align: center;
+    overflow-y: hidden;
+}
+.icon{
+    margin-left: 70px;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: solid 0.5px lightblue;
+    padding: 10px 30px;
+}
+.icon i{
+    color: lightskyblue;
+    font-size: 150px;
+    padding-bottom: 5px;
+}
+.tab{
+    font-size: 40px;
+    font-weight: 400;
+}
+.add{
+    font-size: 15px;
+    font-weight: 100;
+}
+.touch{
+    display: flex;
+    background-image: url(image/17973908.jpg);
+    background-size: cover;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+.form .in{
+    font-size: 20px;
+    font-weight: 300;
+    color: blue;
+}
+.form .in2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.form-el{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 550px;
+}
+.form-el input{
+    width: 40%;
+    margin-bottom: 20px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 6px;
+    outline: none;
+}
+.form-el input:nth-child(odd){
+    margin-right: 52.5px;
+}
+.form-el input:nth-child(even){
+    margin-left: 52.5px;
+}
+.form-el textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 300px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.btn-mes{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+}
+.schedule{
+    width: 400px;
+    box-sizing: border-box;
+    background-color: blue;
+    border-radius: 5px;
+}
+.hour{
+    color: #fff;
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+.weeks{
+    border-bottom: solid 1px white;
+    padding: 10px;
+}
+.weeks p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.cas1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.cases{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.cases i{
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cas2{
+    font-size: 20px;
+    color: #fff;
+}
+.cas3{
+    font-size: 30px;
+}
+.footer{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/hosp\ back.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 20px;
+    background-size: cover;
+}
+.foot img{
+    height: 50px;
+    width: 50px;   
+}
+.services, .serve{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.services, .serve, .list li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.con-1{
+    font-size: 20px;
+    font-weight: 800;
+}
+.num{
+    background: blue;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropbtn{
+    background-color: lightblue;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus{
+    background-color: blue;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: brown;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: blueviolet;
+}
+.show{
+    display: block;
+}

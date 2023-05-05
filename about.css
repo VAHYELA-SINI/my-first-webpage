@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    background: blue;
+    color: white;
+    display: flex;
+    padding: 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.nav-bar-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.nav-bar-2{
+    display: flex;
+}
+.nav-bar-2 li{
+    list-style-type: none;
+    padding: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar-3{
+    display: flex;
+    padding: 20px;
+}
+.nav-bar-3 button{
+    margin-left: 20px;
+    font-size: 20px;
+    color: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+.nav-bar-3 p{
+    font-size: 30px;
+}
+.our{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/hosp\ back.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+}
+.our-1{
+    padding: 30px;
+    font-size: 100px;
+    font-weight: 600;
+    color: #fff;
+}
+.our-2{
+    font-size: 50px;
+    font-weight: 400;
+    padding: 30px;
+    color: #fff;
+}
+.gee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 500px;
+}
+.pat1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+    height: 500px;
+}
+.sec{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 20px;
+}
+.sec1{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.sec2{
+    margin-right: 20px;
+}
+.pat2{
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+    background-color: lightblue;
+    width: 50%;
+    padding: 50px;
+    height: 500px;
+}
+.tan{
+    font-size: 45px;
+    font-weight: 600;
+}
+.pat2 i{
+    font-size: 70px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/hosp\ back.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 20px;
+    background-size: cover;
+}
+.foot img{
+    height: 50px;
+    width: 50px;   
+}
+.services, .serve{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.services, .serve, .list li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.con-1{
+    font-size: 20px;
+    font-weight: 800;
+}
+.num{
+    background: blue;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
